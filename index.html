@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>D-Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./css/weather-icons-wind.css" />
+    <link rel="stylesheet" href="./css/weather-icons-wind.min.css" />
+    <link rel="stylesheet" href="./css/weather-icons.css" />
+    <link rel="stylesheet" href="./css/weather-icons.min.css" />
+    <link rel="stylesheet" href="bgamimation.css">
+  </head>
+  <body>
+    <div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div id="conatiner-main">
+        <div id="form_heading">
+          <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Weather
+            with Cities</h1>
+          <form>
+            <div id="SearchBox">
+              <span class="material-icons"> search </span>
+              <input
+                type="text"
+                placeholder="Search for a city or airport"
+                name="input_city"
+                id="input_city" />
+            </div>
+
+            <button>Add City</button>
+          </form>
+        </div>
+
+        <div id="weatherInfoConatiner"></div>
+
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/0b381e01ab.js"
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
